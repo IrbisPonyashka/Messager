@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input,textarea,button{
+    outline: none;
+    background: none;
+    border: none;
+    resize: none;
+}
+textarea::-webkit-scrollbar-track {
+    background: #e70000;
+  }
+
+
+@font-face {
+    font-family: 'RR';
+    src: url('@/assets/fonts/roboto/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'RM';
+    src: url('@/assets/fonts/roboto/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'RL';
+    src: url('@/assets/fonts/roboto/Roboto-Light.ttf');
+}
